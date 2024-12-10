@@ -21,6 +21,6 @@ if response.status_code == 200:
         link = 'https://t.me/proxy?server={}&port={}&secret={}'.format(host, port, secret)
         
         # 打印生成的链接
-        print("link")
+        print(link)
 else:
     print("Failed to retrieve data. Status code:", response.status_code)
